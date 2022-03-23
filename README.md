@@ -9,8 +9,8 @@ docker images
 
 Command to access to container with another port:
 docker run -it -p 4000:3000 node-parser-log
-or 
-docker run -d -p 4000:3000 node-parser-log
+
+or: docker run -d -p 4000:3000 node-parser-log
 
 Open browser with:
 http://localhost:4000/
